@@ -12,7 +12,7 @@ const Card=(props)=>{
        if (LikedCourses.includes(course.id)) {
          //pehl se Like hua pada tha
          setLikedCourses((prev)=>prev.filter((cid)=>(cid !== course.id)));
-         toast.warning("Like removed");
+         toast.warning("Likes removed");
        }
        else{
          //pehle se liked nai hai
