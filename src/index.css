@@ -7,7 +7,8 @@
     height: 56px;
     border-radius: 50%;
     background: conic-gradient(#0000 10%, #22223b);
-    /* -webkit-mask: radial-gradient(farthest-side, #13030300 calc(100% - 9px), #000 0); */
+    mask: radial-gradient(farthest-side, transparent calc(100% - 9px), #000 0);
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 9px), #000 0);
     animation: spinner-zp9dbg 1s infinite linear;
 }
 
