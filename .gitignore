@@ -1,23 +1,79 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Dependency directories
+node_modules/
 
-# testing
-/coverage
+# Production build
+build/
 
-# production
-/build
-
-# misc
-.DS_Store
+# Environment variables
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Cache and generated files
+.cache/
+.parcel-cache/
+.vscode/
+dist/
+out/
+*.cache
+*.lock
+.pnp.*
+.pnp.js
+
+# Editor directories and files
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Coverage directory
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+
+# IDE or Editor settings
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/*.code-workspace
+
+# macOS system files
+Thumbs.db
+Desktop.ini
+
+# Build artifacts
+*.tgz
+*.gz
+*.zip
+*.rar
+*.7z
+
+# Dependency directories
+node_modules/
+
+# Build output
+build/
+
+# Test coverage
+coverage/
+
+# Eslint and Prettier
+.eslintcache
+.prettiercache
